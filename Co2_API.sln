@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Co2_API", "Co2_API\Co2_API.csproj", "{9E7D4552-3146-4E54-9D50-3D46F7A71F1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E7D4552-3146-4E54-9D50-3D46F7A71F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E7D4552-3146-4E54-9D50-3D46F7A71F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E7D4552-3146-4E54-9D50-3D46F7A71F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E7D4552-3146-4E54-9D50-3D46F7A71F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F92ADC2-41A1-4795-A0FB-144148D643F9}
+	EndGlobalSection
+EndGlobal
