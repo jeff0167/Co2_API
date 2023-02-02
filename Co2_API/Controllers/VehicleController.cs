@@ -15,11 +15,10 @@ namespace Co2_API.Controllers
     [Route("[controller]")]
     public class VehicleController : Controller
     {
-        [HttpGet]
+        [HttpGet] // how to basic
         [ProducesResponseType(StatusCodes.Status200OK)]
-        public float Get(int id, float distance) // need to make this sendable with the http or something
-        {
-            // i mean this is really it
+        public float Get(int id, float distance) 
+        {         
             float result = 0;
             switch (id)
             {
@@ -46,7 +45,6 @@ namespace Co2_API.Controllers
                     break;
             }
             return result;
-            // i remember nothing
         }
     }
 }
